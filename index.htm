@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+.style1 {
+	font-size: xx-large;
+}
+.style2 {
+	font-size: medium;
+	text-align: left;
+}
+.style3 {
+	font-size: xx-large;
+	text-align: left;
+}
+.style4 {
+	font-size: medium;
+}
+</style>
+</head>
+
+<body>
+
+<br />
+<br />
+<br />
+
+<img src="DSCF0003.JPG" width="163" height="157" style="position:absolute; left: 8px; top: 16px;" /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="style1" style="position:absolute; left: 197px; top: 0px;"><p class="style3">
+Hongce Zhang</p>
+<p class="style2">Undergraduate of Microelectronics<br />
+Shanghai Jiao Tong University<br />
+School of Microelectronics</p>
+<p class="style2">E-mail: zhanghongcezhc@gmail.com</p>
+</div>
+<br />
+<hr />
+<p class="style1">Skills</p>
+<ul>
+	<li>
+	<p class="style4">C/C++</p>
+	</li>
+	<li>
+	<p class="style4">OpenGL</p>
+	</li>
+	<li>
+	<p class="style4">Verilog HDL</p>
+	</li>
+	<li>
+	<p class="style4">Altium Designer for PCB design&nbsp;</p>
+	</li>
+</ul>
+<p class="style4">&nbsp;&nbsp;&nbsp; <a href="#example">Here</a> is personal 
+portfolio.</p>
+<p class="style1">Projects</p>
+<ul>
+	<li>
+	<p class="style4">Optimization of the implementation of EKF(Extended Kalman Filter) 
+	and RLS (Recursive Least Square) on FPGA for the estimation of state of 
+	charge and model parameter of Li-ion battery packs. (<a href="#001">Link</a>)</p>
+	</li>
+	<li>
+	<p class="style4">Estimation of State of Charge of Li-ion battery using SVR 
+	approach. (<a href="#002">Link</a>)</p>
+	</li>
+</ul>
+<p class="style1">Research Interest</p>
+<ul>
+	<li>
+	<p class="style1"><span class="style4">HDL automatic processing, including 
+	auto-generation from algorithm description or time sequence specifications, 
+	&quot;smarter&quot; verification generation. <br />
+	I consider this very useful and important, because when I write in Verilog, 
+	there is some time when I feel that the work I&#39;m doing contains some duplication 
+	and repetition. If some smarter tools are at hand, people like me would be 
+	free from annoying details and the repetition of similar code and could pay 
+	more attention to top level considerations.<br />
+	Also, verification of the HDL code seems always more time consuming than the 
+	coding process itself and I&#39;m looking forward to finding some more 
+	efficient ways to undertake this job.</span></p>
+	</li>
+	<li>
+	<p class="style4">Hardware acceleration. <br />
+	I was deeply impressed by the superb effects of ray tracing rendering which 
+	could lively imitate the real world lighting effects when I occasionally ran 
+	into a picture on the Internet which is rendered by a computer. From then on I 
+	started to learn the theory by 
+	myself and wrote some simple programs to make sure I understand the 
+	principles. However, computation time seems a big problems. Ray tracing may 
+	not be the only one which suffers from the trouble, and I hope that 
+	developing algorithm oriented architecture or teaching the datapath and 
+	interconnection of computing unit to be self-adaptive or to excavate the potential of 
+	parallel might help.</p>
+	</li>
+	<li>
+	<p class="style4">Teaching computer and circuit to be wiser.<br />
+	The prospects above, all involve one same core, that is to make our 
+	algorithm and structure to be more clever. Actually, we human do expect 
+	artificial intelligence to make bigger difference in all fields besides the 
+	subject we have mentioned above.<br />
+	</p>
+	</li>
+</ul>
+<p class="style1" ><a id="exmaple" name="example"></a>Portfolio</p>
+<ul>
+	<li>
+	<p class="style4">A game of rolling a cube on the surface to destination 
+	with the restriction of the coherence of the color on the side of the cube 
+	and that of the surface. Elementary though it looks , features like texture 
+	mapping, shadow computation (see the shadow of the cube) and selection mode 
+	(for the user to select a square on the floor) have all been used. <br />
+	<img src="cube_game.png" width="531" height="307" /></p>
+	</li>
+	<li>
+	<p class="style4">A simple circuit simulator which could handle non-linear 
+	components like MOSFET ( level 1 model ) and diode. It is done as the 
+	coursework when I was a external student of EDA principle class. It takes in the netlist, 
+	analyze the connections, and build equations. It solves equations with 
+	partial pivoting Gauss Elimination. Below is an example of the VTC of a 
+	simple CMOS inverter.<br />
+	<img src="simulator.png" width="529" height="322" /></p>
+	</li>
+</ul>
+<ul>
+	<li>Implementation of a simple MIPS processor with dynamic branch 
+	prediction. It is done when taking the course of Computer Organization and 
+	Design. Synthesized HDL together with pre-stored in the on-chip block ram is downloaded 
+	to Xilinx Spartan 3E FPGA. I also added a memory mapped serial port as I/O port so that it 
+	could send back info to my laptop. Below is the result sent back when the 
+	processor ran a program of finding all prime numbers less than 200.<br />
+	<img src="download.PNG" width="1077" height="560" /><br />
+	</li>
+</ul>
+<p>&nbsp;</p>
+<a id="001" name="001"></a>
+<ul>
+	<li>Optimization for the hardware implementation of RLS and EKF which are 
+	used to estimate the model parameter and state of charge of Li-ion battery. 
+	Usually RLS and EKF both involve matrix inversion. Thanks to the model of Li-ion 
+	battery, there is no need to do that tough job. Instead, it is replaced with&nbsp; 
+	one time division. Previous structures of implementation are mainly used in communication 
+	area, and when targeted at power management, they could be simplified. <br />
+	<br />
+	<img src="struct2.gif" width="982" height="361" /><br />
+	<br />
+	<img src="arch.gif" width="710" height="317" /><br />
+	<br />
+	However, division takes a long time and when pipelined it has a long 
+	latency. Due to the fact that there are multiple battery packs, and the data 
+	of separate ones is independent, we could rearrange the sequence,&nbsp; hide that latency and increase 
+	throughput.<br />
+	<br />
+	<img src="struct.gif" width="958" height="457" /><br />
+	<br />
+	<br />
+	<br />
+	<br />
+	The code was firstly written for verification and field test on FPGA. As the 
+	second part of the project, we need to evaluate area and power consumption 
+	of the design, and synthesis should be done with Design Compiler. However, 
+	the IP core used in Xilinx ISE is not available here, and the new modules 
+	differ from the initial ones in the aspect of level of pipelines as well as 
+	latency, which means that the timing sequence might have to be adjusted. 
+	Instead of directly modify original designs, we prefer to write a program 
+	for the automatic generation of Verilog based on the information of 
+	submodules. The code to generate is mainly the control logic, since we tend 
+	to conform the datapath described above. The program takes in the 
+	operation sequence and timing restrictions and try different plans for 
+	timing arrangement to achieve the largest throughput. The operation sequence 
+	which (part of it is shown below) describes the process unit one operation 
+	uses and the dependency of dataflow, 
+	is manually depicted once, and it could be tailored to different situations 
+	automatically. 
+	The arrangement algorithm here is mainly ASAP and looping unrolling, which 
+	means to arrange an operation as soon as the dependency is resolved and 
+	process unit is available, and schedule independent 
+	operations to fill the latency. Although modern multi-issue processors are 
+	also capable of similar job, actually we are talking about implement a small 
+	specific circuit that could be integrated in the situation of accurate 
+	monitoring batteries. We are still working on this project to make 
+	it be of better flexibility.<br />
+	<br />
+	<img src="imgA.gif" /><br />
+	<br />
+	<img src="program_struct.gif" width="783" height="140" /><br />
+	<br />
+	<br />
+	A peripheral board for the field test of this algorithm is designed. We use photo coupler and 
+	Hall Current and Voltage Sensors to measure and control with isolation and 
+	use PMOD port to connect with FPGA. Due to the copper clad on the top layer 
+	the picture below may not be very clear.<br />
+	<br />
+	<img src="pcb.PNG" width="653" height="432" /><br />
+	<br />
+	<a name="002" id="002"></a>SVR approach for estimation of state of charge is 
+	also tried, using RBF as kernel function with grid search and cross 
+	validation for appropriate parameters. Finally 401 support vectors were selected and 
+	it produced a result 
+	with 1.01% MSRE.&nbsp; <br />
+	<br />
+	<img src="svr.gif" width="428" height="289" /></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
