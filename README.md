@@ -1,3 +1,3 @@
-First attemp to set up my personal website
+First attempt to set up my personal website
 
 
