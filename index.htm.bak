@@ -153,7 +153,7 @@ the 2nd International Conference on Computing, Signal Procesing and Analysis
 <ul>
 	<li>Implementation of a simple MIPS processor with dynamic branch 
 	prediction. It is done when taking the course of Computer Organization and 
-	Design. Synthesized HDL together with pre-stored instructions in the on-chip block RAM is downloaded 
+	Design. Synthesized HDL together with pre-stored in the on-chip block ram is downloaded 
 	to Xilinx Spartan 3E FPGA. I also added a memory mapped serial port as I/O port so that it 
 	could send back info to my laptop. Below is the result sent back when the 
 	processor ran a program of finding all prime numbers less than 200.<br />
